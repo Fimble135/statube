@@ -6,6 +6,7 @@ from .models import Video
 
 class IndexView(generic.ListView):
     model = Video
+    paginate_by = 1
 
 
 class CreateView(generic.CreateView):
