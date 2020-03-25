@@ -7,5 +7,4 @@ urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
     path('upload/', views.CreateView.as_view(), name='upload'),
     path('play/<int:pk>/', views.PlayView.as_view(), name='play'),
-    path('comment/<int:pk>',views.CommentView,name='comment')
 ]
