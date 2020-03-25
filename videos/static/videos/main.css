@@ -1,8 +1,60 @@
 body {
-  background-color: #161616;
-  color: #fff;
+  background-color: #b8860b;
+  color:black;
+  overflow: visible;
+  height: 100vh;
+}
+
+div.container{
+  color:#ffe95b;
 }
 
 .jumbotron {
   background-color: #161616;
+}
+
+form {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.btn.btn-black{
+  background-color: #4169e1;
+  color: white;
+}
+
+.video{
+  height: 400px;
+}
+
+p.text-center{
+
+  color:black;
+  font-weight: bold;
+}
+
+p.toukou{
+  color: #fdf5e6;
+}
+
+h1.toukouh1{
+  color: #fdf5e6;
+}
+
+div.footer-sample {
+    background-color:#333;
+    height:40px;
+    width: 100%;
+    bottom: 0;
+    text-align:center;
+    bottom: 0;
+    padding-top: 10px;
+    overflow:hidden;
+}
+
+div.copyright-sample {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.2em;
 }
