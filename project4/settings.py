@@ -123,3 +123,6 @@ STATIC_URL = '/static/'
 # メディアファイル関連l
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# 最大アップロードバイト数
+DATA_UPLOAD_MAX_MEMORY_SIZE = 838860800
