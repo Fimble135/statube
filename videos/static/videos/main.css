@@ -58,3 +58,7 @@ div.copyright-sample {
     font-size: 12px;
     line-height: 1.2em;
 }
+
+img.img-thumbnail {
+	height: 70px;
+}
